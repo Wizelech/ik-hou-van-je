@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Declaração para Minha Namorada</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Minha Querida,</h2>
+            <p>Você é a pessoa mais especial do mundo. Eu te amo muito!</p>
+            <button onclick="showNextSection('gatinhos')">Próximo</button>
+        </section>
+
+        <section id="gatinhos" class="hidden">
+            <h2>Gatinhos Fofos!</h2>
+            <div class="gallery">
+                <img src="https://placekitten.com/200/300" alt="Gatinho 1">
+                <img src="https://placekitten.com/300/300" alt="Gatinho 2">
+                <img src="https://placekitten.com/300/200" alt="Gatinho 3">
+            </div>
+            <button onclick="showNextSection('fim')">Próximo</button>
+        </section>
+
+        <section id="fim" class="hidden">
+            <h2>Fim</h2>
+            <p>Espero que você tenha gostado. Te amo!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
